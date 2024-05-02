@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
-
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cnb_unselectedColor="#666666">
 
     <item
         android:id="@+id/navigation_message"
         android:enabled="true"
         android:icon="@drawable/home"
+        app:cnb_iconColor="@color/home_icon"
         android:title="Home" />
 
     <item

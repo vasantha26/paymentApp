@@ -266,6 +266,7 @@
                 android:paddingEnd="20dp"
                 android:paddingTop="15dp"
                 android:paddingBottom="15dp"
+
                 android:gravity="center"
                 android:elevation="10dp"
                 android:background="@color/white"
@@ -309,6 +310,7 @@
                         android:layout_width="30dp"
                         android:layout_height="wrap_content"
                         android:adjustViewBounds="true"
+                        android:layout_marginStart="30dp"
                         android:src="@drawable/carted"/>
                     <TextView
                         android:id="@+id/cart_text"
@@ -327,6 +329,7 @@
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
                     android:layout_weight="1"
+                    android:layout_marginStart="20dp"
                     android:background="@android:color/transparent">
 
                     <ImageView
@@ -360,6 +363,8 @@
                         android:layout_width="20dp"
                         android:layout_height="wrap_content"
                         android:adjustViewBounds="true"
+                        android:layout_marginStart="20dp"
+
                         android:src="@drawable/profile"/>
                     <TextView
                         android:id="@+id/account_text"
@@ -376,19 +381,7 @@
             </LinearLayout>
 
         </RelativeLayout>
-        <!--            <com.google.android.material.bottomnavigation.BottomNavigationView-->
-        <!--                android:id="@+id/navigation"-->
-        <!--                android:layout_width="match_parent"-->
-        <!--                android:layout_height="wrap_content"-->
-        <!--                android:layout_alignParentBottom="true"-->
-        <!--                android:layout_gravity="bottom"-->
-        <!--                android:background="@drawable/bottom_corner"-->
-        <!--                app:itemTextColor="@color/black"-->
-        <!--                app:elevation="0dp"-->
-        <!--                app:itemHorizontalTranslationEnabled="true"-->
-        <!--                app:itemPaddingBottom="20dp"-->
-        <!--                app:labelVisibilityMode="labeled"-->
-        <!--                app:menu="@menu/menu" />-->
+
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
